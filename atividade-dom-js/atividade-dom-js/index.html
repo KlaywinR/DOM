@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade DOM JS - Rosas do Deserto</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 20px;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #fff7ed 0%, #fbcfe8 28%, #ddd6fe 60%, #dbeafe 100%);
+      color: #3d2a2a;
+    }
+
+    .container {
+      width: min(760px, 100%);
+      background: rgba(255, 255, 255, 0.52);
+      border: 1px solid rgba(120, 53, 15, 0.08);
+      border-radius: 24px;
+      padding: 34px 28px;
+      box-shadow: 0 18px 40px rgba(88, 58, 89, 0.12);
+      backdrop-filter: blur(4px);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      text-align: center;
+      color: #7a2d2d;
+      font-size: clamp(1.8rem, 3vw, 2.7rem);
+    }
+
+    .subtitulo {
+      margin: 0 0 26px;
+      text-align: center;
+      color: #5a3b3b;
+      font-size: 1.06rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 12px;
+    }
+
+    li {
+      margin: 0;
+    }
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: #3d2a2a;
+      background: linear-gradient(135deg, #7a085c77 0%, #4b25545a 100%);
+      border: 1px solid rgba(122, 45, 45, 0.08);
+      border-radius: 14px;
+      padding: 15px 18px;
+      font-weight: 700;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+      box-shadow: 0 8px 18px rgba(122, 45, 45, 0.06);
+    }
+
+    a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 22px rgba(122, 45, 45, 0.12);
+      color: #7a2d2d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Jamin Rosas do Deserto</h1>
+    <p class="subtitulo">Irlan Arley Targino Moreira - Atividade DOM JS</p>
+
+    <ul>
+      <li><a href="ex1-lista-itens/index.html">Exercício 1 - Lista de produtos</a></li>
+      <li><a href="ex2-contador/index.html">Exercício 2 - Contador</a></li>
+      <li><a href="ex3-tarefas/index.html">Exercício 3 - Tarefas de cuidado</a></li>
+      <li><a href="ex4-tema/index.html">Exercício 4 - Tema claro/escuro</a></li>
+      <li><a href="ex5-cadastro/index.html">Exercício 5 - Cadastro de cliente</a></li>
+      <li><a href="ex9-imc/index.html">Exercício 9 - Calculadora de IMC</a></li>
+      <li><a href="ex10-estoque/index.html">Exercício 10 - Estoque</a></li>
+    </ul>
+  </div>
+</body>
+</html>
