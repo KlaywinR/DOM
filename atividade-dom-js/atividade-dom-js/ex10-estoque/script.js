@@ -1,4 +1,3 @@
-// lista de produtos, cada um com nome, quantidade e o minimo aceitavel
 var produtos = [
   { nome: "Adenium obesum", quantidade: 12, minimo: 5 },
   { nome: "Adenium arabicum", quantidade: 2, minimo: 5 },
@@ -16,7 +15,7 @@ for (var i = 0; i < produtos.length; i++) {
   div.classList.add("produto");
   div.textContent = produto.nome + " - Quantidade: " + produto.quantidade;
 
-  // se a quantidade estiver abaixo do minimo, destaca o produto
+
   if (produto.quantidade < produto.minimo) {
     div.classList.add("estoque-baixo");
     div.textContent += " (estoque baixo!)";

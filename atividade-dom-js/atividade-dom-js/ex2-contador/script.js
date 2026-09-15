@@ -10,7 +10,6 @@ btnMais.addEventListener("click", function () {
 });
 
 btnMenos.addEventListener("click", function () {
-  // não deixa a quantidade ficar menor que 1
   if (quantidade > 1) {
     quantidade = quantidade - 1;
     numeroTela.textContent = quantidade;
